@@ -3,8 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>blog</title>
+    <link rel="stylesheet" href="bower_components/normalize.css/normalize.css">
+
+    <link rel="stylesheet" href="main.css">
+
+    <script src="bower_components/modernizr/modernizr.js"></script>
 </head>
 <body>
+  <header>
+    <div>
+      <h1>Very Cool Blog</h1>
+      <h2>My blog</h2>
+    </div>
+    <hr></hr>
+  </header>
+    <div class="content">
+      <ul class="posts">
+        <li>
+          <div id="pic1">
+          </div>
+          <div id="first-post">
+          </div>
+          <form class="chat-form">
+          <textarea id="textbox1" name="Text1" cols="40" rows="5"></textarea>
+          <button id="button1">Post</button>
+          </form>
+        </li>
+        <li>
+          <div id="pic2">
+          </div>
+          <div id="second-post">
+          </div>
+          <form class="chat-form">
+          <textarea id="textbox2" name="Text2" cols="40" rows="5"></textarea>
+          <button id="button2">Post</button>
+          </form>
+        </li>
+        <li>
+          <div>
 
+          </div>
+        </li>
+      </ul>
+
+
+    </div>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/underscore/underscore.js"></script>
+  <script src="bower_components/handlebars/handlebars.js"></script>
+
+  <!-- Application Scripts -->
+  <script src="dist/scripts/templates.js"></script>
+  <script src="scripts/main.js"></script>
 </body>
 </html>
